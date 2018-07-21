@@ -24,7 +24,7 @@ func NewReader(r io.Reader) Reader {
 }
 
 // NOTES:
-// * used be decodeFrame()
+// * used by decodeFrame()
 // * []byte cannot be const :(
 var fieldSeparator = []byte("\r\n")
 var eltSeparator = []byte(" ")
